@@ -1,0 +1,15 @@
+{
+  "V": 461,
+  "E": 4,
+  "conv":{
+    "num_filters": 100,
+    "size":[3,5,7]
+  },
+  "output":9,
+  "buffer_size": 8000,
+  "batch_size":32,
+  "epochs":50,
+  "learning_rate":0.001,
+  "seq_length":50000,
+  "gpu":"0"
+}

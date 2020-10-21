@@ -1,0 +1,12 @@
+{
+  "output":9,
+  "hidden":250,
+  "buffer_size": 1024,
+  "batch_size":128,
+  "epochs":25,
+  "learning_rate":0.001,
+  "features":4500,
+  "input_dropout_rate":0.0,
+  "hidden_dropout_rate":0.5,
+  "gpu":"0"
+}

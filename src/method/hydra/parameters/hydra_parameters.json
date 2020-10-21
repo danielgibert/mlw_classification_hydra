@@ -1,0 +1,52 @@
+{
+  "apis":{
+      "hidden":250
+  },
+  "api_features":4500,
+  "bytes":{
+      "E": 8,
+      "max_bytes_values":2000000,
+      "V":259,
+      "kernel_sizes":[
+        32,
+        32,
+        16,
+        16
+      ],
+      "strides":[
+        4,
+        4,
+        8,
+        8
+      ],
+      "num_filters": [
+        48,
+        96,
+        128,
+        192
+      ],
+      "max_pool_size":4,
+      "hidden":[
+        192,
+        160,
+        128
+      ]
+  },
+  "opcodes":{
+     "V": 461,
+      "E": 4,
+      "conv":{
+        "num_filters": 100,
+        "size":[3,5,7]
+      }
+  },
+  "output":9,
+  "hidden":250,
+  "buffer_size": 1024,
+  "batch_size":32,
+  "epochs":25,
+  "learning_rate":0.001,
+  "input_dropout_rate":0.0,
+  "dropout_rate":0.5,
+  "gpu":"0"
+}
